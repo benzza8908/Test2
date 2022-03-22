@@ -1,12 +1,12 @@
-GET http://localhost:5000/subscribers
+GET http://localhost:3000/subscribers
 
 
 ###
-GET http://localhost:5000/subscribers/27
+GET http://localhost:3000/subscribers/27
 
 
 ###
-POST http://localhost:5000/subscribers
+POST http://localhost:3000/subscribers
 
 Content-Type: application/json
 
@@ -14,3 +14,6 @@ Content-Type: application/json
     "name":"Amazing Person",
     "subscribedToChannel":"Web Dev Simplified"
 }
+
+###
+DELETE http://localhost:3000/subscribers
